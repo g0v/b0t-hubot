@@ -11,10 +11,9 @@ rm -rf b0t
 rm -f b0t/node_modules
 ln -s `pwd`/node_modules b0t/node_modules
 
-# clean all the default scripts
+# clean all the default scripts, use our own scripts.
 cp ./hubot-scripts.json ./b0t/hubot-scripts.json
+rm b0t/scripts/*
 cp ./scripts/* b0t/scripts/
 
-# TODO install livescript support
-
-# TODO install useful hubot-scripts
+# TODO livescript support
