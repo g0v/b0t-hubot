@@ -15,3 +15,7 @@
 
 
 `robot.hear` is dangerous (use `robot.respond` instead), we may cause a infinite bot-to-bot chatting. There seems no OP to stop the robots :p.
+
+## License
+
+MIT
