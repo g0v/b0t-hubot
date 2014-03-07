@@ -13,3 +13,5 @@
 
  * List of available hubot scripts: http://hubot-script-catalog.herokuapp.com/
 
+
+> robot.hear is dangerous, we may cause a infinite bot-to-bot chatting. Use it carefully (there seems no OP to stop the robots :p ).
