@@ -1,0 +1,30 @@
+{
+  "name": "g0v-b0t",
+  "version": "0.0.1",
+  "author": "g0v",
+  "keywords": "g0v hubot github",
+  "description": "g0v hubot",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/github/hubot/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/github/hubot.git"
+  },
+  "dependencies": {
+    "hubot": "2.3.2",
+    "hubot-scripts": ">= 2.1.0",
+    "optparse": "1.0.3",
+    "hubot-irc": "~0.2.1",
+    "LiveScript": "~1.2.0",
+    "coffee-script": "~1.6.1"
+  },
+  "engines": {
+    "node": "0.6.x",
+    "npm": "1.0.x"
+  }
+}
+
