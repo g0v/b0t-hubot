@@ -2,16 +2,17 @@
 #   Fork me
 #
 # Dependencies:
-#   None
+#   This is a sample hubot script
 #
 # Configuration:
 #   None
 #
 # Commands:
+#   hey
 #
 # Author:
-#   youchenlee
+#   g0v contributors
 
 module.exports = (robot) ->
-  robot.respond /.*/, (msg) ->
-    msg.reply "Fork me on https://github.com/youchenlee/b0t-hubot ;p"
+  robot.respond /hey/i, (msg) ->
+    msg.reply "Fork me on https://github.com/g0v/b0t-hubot"
