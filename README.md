@@ -1,3 +1,6 @@
+## What/Why is this project?
+ * Please read [g0v irc robot by hubot](https://g0v.hackpad.com/g0v-irc-robot-by-hubot-IBmzHC20wBb)
+
 ## Install & run
 
  1. Change settings on `env.sh`, choose a nickname.
