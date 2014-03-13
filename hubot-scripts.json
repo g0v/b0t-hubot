@@ -1,5 +1,4 @@
 [
     "redis-brain.coffee",
-    "github-issue-link.coffee",
     "reload.coffee"
 ]
