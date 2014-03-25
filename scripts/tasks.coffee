@@ -46,7 +46,7 @@ module.exports = (robot) ->
     msg.send "Task added: ##{task.num} - #{task.task}"
 
   robot.respond /(help)/i, (msg) ->
-    msg.send "task add <task> | task delete <task>"
+    msg.send "task add <task> | task delete <task number> | http://task.g0v.today/ # task list"
 
   robot.respond /(task delete|delete task) #?(\d+)/i, (msg) ->
     taskNum = msg.match[2]
