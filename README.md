@@ -23,6 +23,7 @@
 
  * scripts/ping.coffee
  * scripts/github-issue-link.coffee
+ * scripts/tasks.coffee
 
 ```
 Copyright (c) 2014 GitHub Inc.
