@@ -2,9 +2,26 @@
 <head>
 <meta charset="utf-8">
 <title>g0v.today 工作回報列表</title>
+<style>
+body {
+    margin-top: 70px;
+    color: #333;
+}
+
+pre {
+    background-color: rgba(5%, 80%, 5%, 0.1);
+    border: 1px solid #AAA;
+    padding: 5px;
+}
+
+h2, h3 {
+    border-bottom: 1px solid #AAA;
+    margin-top: 30px;
+}
+</style>
 </head>
 <body>
-<h3>g0v.today 工作回報列表</h3>
+<h2>g0v.today 工作回報列表</h2>
 <ul>
 <?php
 
