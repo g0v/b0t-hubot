@@ -1,6 +1,10 @@
 ## What/Why is this project?
  * Please read [g0v irc robot by hubot](https://g0v.hackpad.com/g0v-irc-robot-by-hubot-IBmzHC20wBb)
 
+## Pre-requirement
+
+ * redis-server (redis is required for permanent storage, if your bot doesn't need a permanent memory, remove `redis-brain.coffee` from `hubot-scripts.json`)
+
 ## Install & run
 
  1. Change settings on `env.sh`, choose a nickname.
