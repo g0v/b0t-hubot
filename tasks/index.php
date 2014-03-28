@@ -43,7 +43,10 @@ $redis->close();
 <p>
 <h3>回報方法</h3>
 <pre>
-在 freenode #g0v.tw IRC channel 中，打以下這段文字，即可看到相關說明。
+在 freenode #g0v.tw IRC channel 中，輸入：
+b0t-issue: task add 事情 # 增加一個 task
+
+輸入以下這段文字，即可看到相關說明：
 b0t-issue: help
 </pre>
 </p>
