@@ -13,6 +13,7 @@
 #   hubot task delete <task number> - Delete a task
 #
 # Author:
+#   g0v contributors (2014)
 #   Crofty
 
 class Tasks
