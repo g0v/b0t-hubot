@@ -54,4 +54,4 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
  * all others
 
-MIT
+   Copyright © 2014 g0v Contributors - http://g0v.mit-license.org/
