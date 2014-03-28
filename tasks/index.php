@@ -22,5 +22,13 @@ if (count($tasks) > 0) {
 $redis->close();
 ?>
 </ul>
+
+<p>
+<h3>回報方法</h3>
+<pre>
+在 freenode #g0v.tw IRC channel 中，打以下這段文字，即可看到相關說明。
+b0t-issue: help
+</pre>
+</p>
 </body>
 </html>
