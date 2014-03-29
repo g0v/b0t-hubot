@@ -1,4 +1,3 @@
-
 #   Allows tasks (TODOs) to be added to Hubot
 #
 # Dependencies:
@@ -44,12 +43,12 @@ module.exports = (robot) ->
   robot.respond /(task add|add task) (.+?)$/i, (msg) ->
     d = new Date()
     task = tasks.add "#{d.toTimeString()} #{msg.message.user.name}: #{msg.match[2]}"
-    msg.send "Task added: ##{task.num} - #{task.task}"
+    msg.send "Task added: ##{task.num}"
 
   robot.respond /(help)/i, (msg) ->
-    msg.send "task add <task> | task delete <task number> | http://task.g0v.today/ # task list"
+    msg.send "task add <task> | task done <task number> | http://task.g0v.today/ # task list"
 
-  robot.respond /(task delete|delete task) #?(\d+)/i, (msg) ->
+  robot.respond /(task delete|delete task|task done|done task) #?(\d+)/i, (msg) ->
     taskNum = msg.match[2]
     task = tasks.deleteByNumber taskNum
-    msg.send "Task deleted: ##{task.num} - #{task.task}"
+    msg.send "Task done: ##{task.num} - #{task.task}"
