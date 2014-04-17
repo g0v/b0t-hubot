@@ -24,7 +24,7 @@ module.exports = function (robot) {
                     var entryJSON = JSON.parse(body);
                     var entryContent = entryJSON["description"];
                     for (var i = 0; i < entryJSON.urls.length; i++) {
-                        entryContent = entryContent.replace(entryJSON.urls[i].name, entryJSON.urls[i].name + '(' + entryJSON.urls[i].url + ')');
+                        entryContent = entryContent.replace(entryJSON.urls[i].name, entryJSON.urls[i].name + '( ' + entryJSON.urls[i].url + ' )');
                     }
                     msg.send("About " + entryJSON["name"] + ": " + entryContent);
                 } else {
