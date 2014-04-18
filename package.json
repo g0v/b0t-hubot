@@ -15,10 +15,10 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
-    "hubot": "2.6.0",
+    "hubot": ">= 2.6.0",
     "hubot-scripts": ">= 2.1.0",
     "optparse": "1.0.3",
-    "hubot-irc": "~0.2.1",
+    "hubot-irc": ">= 0.2.2",
     "LiveScript": "~1.2.0",
     "coffee-script": "~1.6.1",
     "githubot": "0.5.0"
