@@ -31,12 +31,12 @@ module.exports = (robot) ->
                 if is-public
                     msg.send resp-string
                 else
-                    msg.reply "讓我私下告訴你 #{msg.match[1]} 的祕密"
+                    msg.reply "ok!"
                     msg.send-private resp-string
 
     robot.hear /what is (.+?)$/i, (msg) ->
         robot.handle-response msg, true
 
-    robot.respond /what is (.+?)$/i, (msg) ->
+    robot.hear /pm me (.+?)$/i, (msg) ->
         robot.handle-response msg, false
 
