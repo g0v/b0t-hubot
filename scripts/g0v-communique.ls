@@ -27,7 +27,7 @@ module.exports = (robot) ->
                             entryContent = entryContent.replace url.name, "#{url.name}( #{url.url} )"
                         resp-string = "About #{entryJSON.name}: #{entryContent}"
                     else
-                        resp-string "Sorry. This entry is empty. Welcome to add the entry in https://g0v.hackpad.com/Fe3VpeN42w9"
+                        resp-string = "Sorry. This entry is empty. Welcome to add the entry in https://g0v.hackpad.com/Fe3VpeN42w9"
                 if is-public
                     msg.send resp-string
                 else
